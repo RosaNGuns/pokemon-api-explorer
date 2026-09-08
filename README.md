@@ -3,17 +3,18 @@ Pokémon API Explorer
 A Python command-line Pokémon information tool that uses the PokéAPI to retrieve Pokémon data and provides several ways to explore and save that information.
 
 Features
-🔎 Search for any Pokémon by name
-📋 Display basic Pokémon information
-⚡ View Pokémon abilities
-📏 Display height and weight
-🧬 View Pokémon types
-⚔️ Display type strengths and weaknesses
-📊 View base stats
-🖼️ Download and save Pokémon sprites
-🔄 Switch between Pokémon without restarting the program
+🔎 Search for any Pokémon by name,
+📋 Display basic Pokémon information,
+⚡ View Pokémon abilities,
+📏 Display height and weight,
+🧬 View Pokémon types,
+⚔️ Display type strengths and weaknesses,
+📊 View base stats,
+🖼️ Download and save Pokémon sprites,
+🔄 Switch between Pokémon without restarting the program,
 ❌ Handles invalid Pokémon names
-What It Does
+
+What It Does:
 
 The program starts by asking the user for a Pokémon name.
 
@@ -43,13 +44,13 @@ pokemon/
 
 This allows sprites to be automatically categorized without manually creating the folders.
 
-Technologies Used
-Python
-requests
-pathlib
-REST API
-JSON
-File handling
+Technologies Used:
+Python,
+requests,
+pathlib,
+REST API,
+JSON,
+File handling,
 API
 
 This project uses PokéAPI to retrieve Pokémon data.
@@ -71,30 +72,30 @@ This project was created to practice working with external APIs and handling rea
 
 Key concepts practiced:
 
-HTTP requests
-REST APIs
-JSON data parsing
-Functions
-Loops
-Conditional logic
-User input
-HTTP status codes
-File handling
-Directory creation
-Downloading files
-pathlib
+HTTP requests,
+REST APIs,
+JSON data parsing,
+Functions,
+Loops,
+Conditional logic,
+User input,
+HTTP status codes,
+File handling,
+Directory creation,
+Downloading files,
+pathlib,
 Basic error handling
-Future Improvements
 
+Future Improvements:
 Possible improvements include:
 
-Better input validation
-More detailed Pokémon information
-Support for shiny sprites
-Saving additional Pokémon data
-Improved type-effectiveness calculations
-Configuration for the sprite download location
-A graphical user interface
+Better input validation,
+More detailed Pokémon information,
+Support for shiny sprites,
+Saving additional Pokémon data,
+Improved type-effectiveness calculations,
+Configuration for the sprite download location,
+A graphical user interface,
 Project Status
 
 🚧 Personal learning project
