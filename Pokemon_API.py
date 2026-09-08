@@ -54,9 +54,9 @@ def save_sprite(pokemon):
     types = pokemon["types"]
     sprite = pokemon["sprites"]["front_default"]
     surl = requests.get(sprite).content
-    folder = Path("C:/Users/alenm/OneDrive/Radna površina/Wut")
+    folder = Path(__file__).parent
     pokemon_folder = folder / "pokemon"
-    pokemon_folder.mkdir(exist_ok = True) 
+    pokemon_folder.mkdir(exist_ok=True) 
     for pokemon_type in types:
         type = pokemon_type["type"]
         types_name = type["name"]
